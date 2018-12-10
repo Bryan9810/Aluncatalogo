@@ -1,0 +1,7 @@
+.navheader {
+    background-color: #FF000080;
+    margin-bottom: 10px;
+    -webkit-transition: all ease .5s;
+    -o-transition: all ease .5s;
+    transition: all ease .5s;
+}

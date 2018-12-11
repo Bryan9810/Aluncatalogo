@@ -1,7 +1,45 @@
-.navheader {
-    background-color: #FF000080;
-    margin-bottom: 10px;
-    -webkit-transition: all ease .5s;
-    -o-transition: all ease .5s;
-    transition: all ease .5s;
-}
+nav{
+    background-color: #fff;
+  }
+
+  nav .nav-wrapper .sidenav-trigger{
+    color: #666;
+  }
+
+  nav .nav-wrapper img{
+    width: 60px;
+  }
+
+    .nav-wrapper ul li{
+                background-color: #fff;
+              }
+    .nav-wrapper ul li &:hover{
+                background-color: #fff;
+              }
+    .nav-wrapper ul li a{
+                color: #666;
+              }
+
+    .nav-wrapper ul li a &:hover{
+                color: #cccc33;
+              }
+
+.user-view{
+            height: 200px;
+          }
+
+
+    .user-view .background{
+            height: 200px;
+          }
+
+    .user-view .background img{
+                  height: 200px;
+    }
+
+
+    .logoNav{
+        width: 100px;
+        display: block;
+        margin: auto;
+        padding-top: 10px;}

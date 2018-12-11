@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+declare var $: any;
+
 @Component({
   selector: 'app-product',
   templateUrl: './product.component.html',
@@ -10,6 +12,7 @@ export class ProductComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    $('.tabs').tabs();
   }
 
 }

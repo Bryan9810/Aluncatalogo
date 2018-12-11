@@ -9,7 +9,10 @@ import { ProductComponent } from './components/product/product.component';
 import { JopsComponent } from './components/jops/jops.component';
 import { EventComponent } from './components/event/event.component';
 import { MenuComponent } from './menu/menu.component';
-import { FooterComponent } from './footer/footer.component';
+import { PokenComponent } from './components/lp/poken/poken.component';
+import { HeaderComponent } from './header/header.component';
+import { QuickComponent } from './components/lp/quick/quick.component';
+import { OrangeComponent } from './components/lp/orange/orange.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +22,10 @@ import { FooterComponent } from './footer/footer.component';
     JopsComponent,
     EventComponent,
     MenuComponent,
-    FooterComponent,
+    PokenComponent,
+    HeaderComponent,
+    QuickComponent,
+    OrangeComponent,
 
   ],
   imports: [

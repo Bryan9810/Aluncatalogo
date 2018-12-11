@@ -7,7 +7,7 @@ import { OrangeComponent } from './components/lp/orange/orange.component';
 import { CartagenaComponent } from './components/lp/cartagena/cartagena.component';
 
 const routes: Routes = [
-  {path: 'home', component: ComponentsComponent},
+  {path: '', component: ComponentsComponent},
   {path: 'poken', component: PokenComponent},
   {path: 'quick', component: QuickComponent},
   {path: 'orange', component: OrangeComponent},

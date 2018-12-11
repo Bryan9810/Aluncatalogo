@@ -13,6 +13,7 @@ import { PokenComponent } from './components/lp/poken/poken.component';
 import { HeaderComponent } from './header/header.component';
 import { QuickComponent } from './components/lp/quick/quick.component';
 import { OrangeComponent } from './components/lp/orange/orange.component';
+import { CartagenaComponent } from './components/lp/cartagena/cartagena.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { OrangeComponent } from './components/lp/orange/orange.component';
     HeaderComponent,
     QuickComponent,
     OrangeComponent,
+    CartagenaComponent,
 
   ],
   imports: [

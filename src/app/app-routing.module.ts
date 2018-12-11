@@ -8,6 +8,7 @@ import { CartagenaComponent } from './components/lp/cartagena/cartagena.componen
 
 const routes: Routes = [
   {path: '', component: ComponentsComponent},
+  {path: 'home', component: ComponentsComponent},
   {path: 'poken', component: PokenComponent},
   {path: 'quick', component: QuickComponent},
   {path: 'orange', component: OrangeComponent},
